@@ -1,0 +1,13 @@
+let age1=parseInt(prompt("Enter the age of 1st student:"));
+let age2=parseInt(prompt("Enter the age of 2nd student:"));
+let age3=parseInt(prompt("Enter the age of 3rd student:"));
+let age4=parseInt(prompt("Enter the age of 4th student:"));
+let age5=parseInt(prompt("Enter the age of 5th student:"));
+let age6=parseInt(prompt("Enter the age of 6th student:"));
+let age7=parseInt(prompt("Enter the age of 7th student:"));
+let age8=parseInt(prompt("Enter the age of 8th student:"));
+let age9=parseInt(prompt("Enter the age of 9th student:"));
+let age10=parseInt(prompt("Enter the age of 10th student:"));
+let total_age = age1+age2+age3+age4+age5+age6+age7+age8+age9+age10;
+let average=total_age/10;
+console.log(`Average age of these 10 Students =  ${average}`);
